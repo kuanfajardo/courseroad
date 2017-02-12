@@ -149,7 +149,7 @@
 				TargetAttributes = {
 					567A240C1E5112E80042DCD4 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = SN5BFX4SD3;
+						DevelopmentTeam = V8Z84YJUGT;
 						ProvisioningStyle = Automatic;
 					};
 					567A24231E5112E80042DCD4 = {
@@ -343,7 +343,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SN5BFX4SD3;
+				DEVELOPMENT_TEAM = V8Z84YJUGT;
 				INFOPLIST_FILE = courseroad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.courseroad;
@@ -356,7 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SN5BFX4SD3;
+				DEVELOPMENT_TEAM = V8Z84YJUGT;
 				INFOPLIST_FILE = courseroad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.courseroad;
