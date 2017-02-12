@@ -6,6 +6,9 @@ target 'courseroad' do
   use_frameworks!
 
   # Pods for courseroad
+  pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
+  pod 'EZSwiftExtensions', :git => 'https://github.com/goktugyil/EZSwiftExtensions.git'
+  pod 'JSSAlertView'
 
   target 'courseroadTests' do
     inherit! :search_paths
