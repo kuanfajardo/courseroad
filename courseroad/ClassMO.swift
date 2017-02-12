@@ -1,9 +1,31 @@
 //
 //  ClassMO.swift
-//  courseroad
+//  coarseroad
 //
-//  Created by Juan Diego Fajardo on 2/12/17.
+//  Created by Juan Diego Fajardo on 2/2/17.
 //  Copyright © 2017 Juan Diego Fajardo. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import CoreData
+
+@objc(ClassMO)
+class ClassMO: NSManagedObject {
+    @NSManaged var type: String
+    @NSManaged var name: String?
+    @NSManaged var year: NSNumber?
+    @NSManaged var semester: String?
+    @NSManaged var color: UIColor?
+    
+    override var description: String {
+        let descDict: [String: AnyObject?] = [
+            "type" : type as AnyObject?,
+            "name" : name as AnyObject?,
+            "year" : year,
+            "semester" : semester as AnyObject?,
+            "color" : color!
+        ]
+        
+        return String(describing: descDict)
+    }
+}
