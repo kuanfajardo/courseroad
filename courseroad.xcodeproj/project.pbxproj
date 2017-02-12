@@ -14,6 +14,23 @@
 		567A241B1E5112E80042DCD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567A241A1E5112E80042DCD4 /* Assets.xcassets */; };
 		567A241E1E5112E80042DCD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567A241C1E5112E80042DCD4 /* LaunchScreen.storyboard */; };
 		567A24291E5112E80042DCD4 /* courseroadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A24281E5112E80042DCD4 /* courseroadTests.swift */; };
+		567A243A1E5114330042DCD4 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A24391E5114330042DCD4 /* Globals.swift */; };
+		567A243C1E5114600042DCD4 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A243B1E5114600042DCD4 /* IntroViewController.swift */; };
+		567A243E1E5114B60042DCD4 /* SchemePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A243D1E5114B60042DCD4 /* SchemePickerViewController.swift */; };
+		567A24401E5114CF0042DCD4 /* CurriculumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A243F1E5114CF0042DCD4 /* CurriculumViewController.swift */; };
+		567A24421E5114E20042DCD4 /* CurriculumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A24411E5114E20042DCD4 /* CurriculumDetailViewController.swift */; };
+		567A24441E5114F40042DCD4 /* AddCurriculaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A24431E5114F40042DCD4 /* AddCurriculaViewController.swift */; };
+		567A24461E5115620042DCD4 /* CourseRoadPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A24451E5115620042DCD4 /* CourseRoadPageViewController.swift */; };
+		567A24481E5115700042DCD4 /* YearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A24471E5115700042DCD4 /* YearViewController.swift */; };
+		567A244A1E5115910042DCD4 /* AddClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A24491E5115910042DCD4 /* AddClassesViewController.swift */; };
+		567A244C1E51162E0042DCD4 /* CourseRoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A244B1E51162E0042DCD4 /* CourseRoadViewController.swift */; };
+		567A244E1E51165D0042DCD4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A244D1E51165D0042DCD4 /* SettingsViewController.swift */; };
+		567A24501E5116A70042DCD4 /* ClassButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A244F1E5116A70042DCD4 /* ClassButton.swift */; };
+		567A24521E5116BE0042DCD4 /* SchemeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A24511E5116BE0042DCD4 /* SchemeButton.swift */; };
+		567A24541E5116CC0042DCD4 /* CourseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A24531E5116CC0042DCD4 /* CourseButton.swift */; };
+		567A24561E51189F0042DCD4 /* ClassMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A24551E51189F0042DCD4 /* ClassMO.swift */; };
+		567A24581E5118C50042DCD4 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A24571E5118C50042DCD4 /* DataController.swift */; };
+		567A245A1E5118CF0042DCD4 /* Curriculum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A24591E5118CF0042DCD4 /* Curriculum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +55,23 @@
 		567A24241E5112E80042DCD4 /* courseroadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = courseroadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		567A24281E5112E80042DCD4 /* courseroadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courseroadTests.swift; sourceTree = "<group>"; };
 		567A242A1E5112E80042DCD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		567A24391E5114330042DCD4 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		567A243B1E5114600042DCD4 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		567A243D1E5114B60042DCD4 /* SchemePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemePickerViewController.swift; sourceTree = "<group>"; };
+		567A243F1E5114CF0042DCD4 /* CurriculumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurriculumViewController.swift; sourceTree = "<group>"; };
+		567A24411E5114E20042DCD4 /* CurriculumDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurriculumDetailViewController.swift; sourceTree = "<group>"; };
+		567A24431E5114F40042DCD4 /* AddCurriculaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCurriculaViewController.swift; sourceTree = "<group>"; };
+		567A24451E5115620042DCD4 /* CourseRoadPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseRoadPageViewController.swift; sourceTree = "<group>"; };
+		567A24471E5115700042DCD4 /* YearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YearViewController.swift; sourceTree = "<group>"; };
+		567A24491E5115910042DCD4 /* AddClassesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddClassesViewController.swift; sourceTree = "<group>"; };
+		567A244B1E51162E0042DCD4 /* CourseRoadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseRoadViewController.swift; sourceTree = "<group>"; };
+		567A244D1E51165D0042DCD4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		567A244F1E5116A70042DCD4 /* ClassButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassButton.swift; sourceTree = "<group>"; };
+		567A24511E5116BE0042DCD4 /* SchemeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemeButton.swift; sourceTree = "<group>"; };
+		567A24531E5116CC0042DCD4 /* CourseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseButton.swift; sourceTree = "<group>"; };
+		567A24551E51189F0042DCD4 /* ClassMO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassMO.swift; sourceTree = "<group>"; };
+		567A24571E5118C50042DCD4 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		567A24591E5118CF0042DCD4 /* Curriculum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Curriculum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +114,12 @@
 			isa = PBXGroup;
 			children = (
 				567A24101E5112E80042DCD4 /* AppDelegate.swift */,
+				567A24361E5113940042DCD4 /* Assets */,
+				567A24351E5113830042DCD4 /* Model */,
+				567A24341E5113780042DCD4 /* Controller */,
+				567A24331E5113700042DCD4 /* View */,
 				567A24121E5112E80042DCD4 /* ViewController.swift */,
-				567A24141E5112E80042DCD4 /* Main.storyboard */,
-				567A241A1E5112E80042DCD4 /* Assets.xcassets */,
-				567A241C1E5112E80042DCD4 /* LaunchScreen.storyboard */,
-				567A241F1E5112E80042DCD4 /* Info.plist */,
-				567A24171E5112E80042DCD4 /* courseroad.xcdatamodeld */,
+				567A24391E5114330042DCD4 /* Globals.swift */,
 			);
 			path = courseroad;
 			sourceTree = "<group>";
@@ -97,6 +131,71 @@
 				567A242A1E5112E80042DCD4 /* Info.plist */,
 			);
 			path = courseroadTests;
+			sourceTree = "<group>";
+		};
+		567A24331E5113700042DCD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				567A24141E5112E80042DCD4 /* Main.storyboard */,
+				567A241C1E5112E80042DCD4 /* LaunchScreen.storyboard */,
+				567A244F1E5116A70042DCD4 /* ClassButton.swift */,
+				567A24511E5116BE0042DCD4 /* SchemeButton.swift */,
+				567A24531E5116CC0042DCD4 /* CourseButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		567A24341E5113780042DCD4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				567A24381E5113A00042DCD4 /* Intro */,
+				567A24371E51139B0042DCD4 /* Old */,
+				567A24451E5115620042DCD4 /* CourseRoadPageViewController.swift */,
+				567A24471E5115700042DCD4 /* YearViewController.swift */,
+				567A24491E5115910042DCD4 /* AddClassesViewController.swift */,
+				567A244B1E51162E0042DCD4 /* CourseRoadViewController.swift */,
+				567A244D1E51165D0042DCD4 /* SettingsViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		567A24351E5113830042DCD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				567A24171E5112E80042DCD4 /* courseroad.xcdatamodeld */,
+				567A24551E51189F0042DCD4 /* ClassMO.swift */,
+				567A24571E5118C50042DCD4 /* DataController.swift */,
+				567A24591E5118CF0042DCD4 /* Curriculum.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		567A24361E5113940042DCD4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				567A241F1E5112E80042DCD4 /* Info.plist */,
+				567A241A1E5112E80042DCD4 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		567A24371E51139B0042DCD4 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Old;
+			sourceTree = "<group>";
+		};
+		567A24381E5113A00042DCD4 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				567A243B1E5114600042DCD4 /* IntroViewController.swift */,
+				567A243D1E5114B60042DCD4 /* SchemePickerViewController.swift */,
+				567A243F1E5114CF0042DCD4 /* CurriculumViewController.swift */,
+				567A24411E5114E20042DCD4 /* CurriculumDetailViewController.swift */,
+				567A24431E5114F40042DCD4 /* AddCurriculaViewController.swift */,
+			);
+			name = Intro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +303,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567A243C1E5114600042DCD4 /* IntroViewController.swift in Sources */,
+				567A244C1E51162E0042DCD4 /* CourseRoadViewController.swift in Sources */,
+				567A24561E51189F0042DCD4 /* ClassMO.swift in Sources */,
+				567A243A1E5114330042DCD4 /* Globals.swift in Sources */,
+				567A24401E5114CF0042DCD4 /* CurriculumViewController.swift in Sources */,
+				567A24441E5114F40042DCD4 /* AddCurriculaViewController.swift in Sources */,
+				567A243E1E5114B60042DCD4 /* SchemePickerViewController.swift in Sources */,
+				567A24421E5114E20042DCD4 /* CurriculumDetailViewController.swift in Sources */,
 				567A24131E5112E80042DCD4 /* ViewController.swift in Sources */,
 				567A24111E5112E80042DCD4 /* AppDelegate.swift in Sources */,
+				567A24581E5118C50042DCD4 /* DataController.swift in Sources */,
+				567A24541E5116CC0042DCD4 /* CourseButton.swift in Sources */,
+				567A244E1E51165D0042DCD4 /* SettingsViewController.swift in Sources */,
+				567A24461E5115620042DCD4 /* CourseRoadPageViewController.swift in Sources */,
+				567A245A1E5118CF0042DCD4 /* Curriculum.swift in Sources */,
+				567A24501E5116A70042DCD4 /* ClassButton.swift in Sources */,
 				567A24191E5112E80042DCD4 /* courseroad.xcdatamodeld in Sources */,
+				567A24481E5115700042DCD4 /* YearViewController.swift in Sources */,
+				567A24521E5116BE0042DCD4 /* SchemeButton.swift in Sources */,
+				567A244A1E5115910042DCD4 /* AddClassesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
