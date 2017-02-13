@@ -4,7 +4,7 @@
         <attribute name="num" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <relationship name="hasSubject" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Subject" inverseName="isInSemester" inverseEntity="Subject" syncable="YES"/>
     </entity>
-    <entity name="Subject" representedClassName="Subject" syncable="YES" codeGenerationType="class">
+    <entity name="Subject" representedClassName="ClassMO" syncable="YES">
         <attribute name="color" optional="YES" attributeType="Transformable" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="semester" optional="YES" attributeType="String" syncable="YES"/>

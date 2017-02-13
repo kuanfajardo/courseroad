@@ -110,16 +110,21 @@ extension CourseRoadPageViewController: UIPageViewControllerDelegate {
 // Inter-Page Functions
 extension CourseRoadPageViewController {
     func removeButtonInFocus() {
-        let controller = yearControllers[yearInFocus! - 1]
+        print(yearInFocus! - 1)
+        let controller = yearControllers[yearInFocus!]
         
         switch buttonInFocus!.superview! {
         case controller.fallView!:
             controller.fallBucket.removeFirst(buttonInFocus!)
+            print("was in FALL")
         case controller.springView!:
             controller.springBucket.removeFirst(buttonInFocus!)
+            print("was in SPRING")
         case controller.iapView!:
             controller.iapBucket.removeFirst(buttonInFocus!)
+            print("was in IAP")
         default:
+            print("BUG EXISTS HERE HEHEHEH")
             break
         }
         

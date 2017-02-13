@@ -246,7 +246,7 @@ class YearViewController: UIViewController {
         let iapData = demoData["iap_\(year)"]
         let springData = demoData["spring_\(year)"]
         
-        if year == 23 {
+        if year == 11 {
             for element in fallData! {
                 placeButton(withData: element as [String : AnyObject], inSemester: "fall")
             }
@@ -260,7 +260,7 @@ class YearViewController: UIViewController {
             }
         }
         create()
-        //        deleteAll()
+//        deleteAll()
         
         
         //------------------------
@@ -569,7 +569,7 @@ class YearViewController: UIViewController {
             
             self.allClassButtons.append(button)
             print(button.superview)
-            //            button.tag = 1
+            button.tag = 1
         }
     }
     
@@ -635,18 +635,20 @@ class YearViewController: UIViewController {
     
     
     func save() {
+        print("SACING IN YEAR \(self.year)")
         deleteAll()
         //        for object in Globals.managedObjectContext.
         for button in allClassButtons {
             let subject = NSEntityDescription.insertNewObject(forEntityName: "Subject", into: Globals.managedObjectContext) as! ClassMO
-            
+//
+//            let subject = ClassMO(context: Globals.managedObjectContext)
             
             print("saving ... \n", button.text)
             subject.color = button.fillColor
             subject.name = button.text
             subject.year = year as NSNumber?
             print(button.tag)
-            print(button.superview!)
+//            print(button.superview!)
             subject.semester =  button.superview! == fallView! ? "fall" : (button.superview! == springView! ? "spring" : "iap")
             subject.type = button.data["type"] as! String
             print("saving ... \n", subject)

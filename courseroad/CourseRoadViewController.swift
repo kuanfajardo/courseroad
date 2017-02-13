@@ -78,7 +78,7 @@ class CourseRoadViewController: UIViewController, UIGestureRecognizerDelegate {
     
     
     // MAIN WORK - CREATE COURSEROAD VIEW
-    func createCellWithContent(_ content: [[String:AnyObject]], withinFrame guideFrame: CGRect, atLevel level: Int = 0) -> UIView {
+    func createCellWithContent(_ content: [[String:Any]], withinFrame guideFrame: CGRect, atLevel level: Int = 0) -> UIView {
         // Layout Constantes
         let edgeBuffer = 8.toCGFloat
         let iconSize = 30.toCGFloat
@@ -153,14 +153,14 @@ class CourseRoadViewController: UIViewController, UIGestureRecognizerDelegate {
         return mainView
     }
     
-    func getBufferFactorForCellIn(_ content: [[String:AnyObject]], withTargetTitle title: String) -> (Int, Bool) {
+    func getBufferFactorForCellIn(_ content: [[String:Any]], withTargetTitle title: String) -> (Int, Bool) {
         var count = 1
         var index = 0
         var current = content[index]
         while current["title"] as! String != title {
             print(current["title"])
             print(count)
-            let child = current["children"] as! [[String:AnyObject]]
+            let child = current["children"] as! [[String:Any]]
             
             if child.count == 0 {
                 count += 1

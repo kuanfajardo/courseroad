@@ -10,14 +10,14 @@ import UIKit
 import CoreData
 
 @objc(ClassMO)
-class ClassMO: NSManagedObject {
+open class ClassMO: NSManagedObject {
     @NSManaged var type: String
     @NSManaged var name: String?
     @NSManaged var year: NSNumber?
     @NSManaged var semester: String?
     @NSManaged var color: UIColor?
     
-    override var description: String {
+    open override var description: String {
         let descDict: [String: AnyObject?] = [
             "type" : type as AnyObject?,
             "name" : name as AnyObject?,
