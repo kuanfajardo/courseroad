@@ -9,27 +9,25 @@
 import UIKit
 
 class IntroViewController: UIViewController {
-
+    @IBOutlet weak var textLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        // Starting Sequence
+        let width: CGFloat = 125
+        let height = width * 0.409
+        let meme = ClassButton(frame: CGRect(x: self.view.bounds.width / 2 - width / 2, y: self.view.bounds.height * 0.25, width: width, height: height))
+        self.view.addSubview(meme)
+        
+        
+        sleep(3)
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        sleep(3)
+        self.performSegue(withIdentifier: "SchemePicker", sender: self)
     }
-    */
-
 }
