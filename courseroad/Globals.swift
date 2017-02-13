@@ -40,7 +40,7 @@ struct Globals {
     
     static var majorData: [(String, [String])] = [("1", ["1A", "1C", "1E", "1ENG"]), ("2", []), ("3", []), ("4", []), ("5", []), ("6", ["6-1 old", "6-1 new", "6-2 old", "6-2 new", "6-3 old", "6-3 new", "6-7 old", "6-7 new"]), ("7", []), ("8", []), ("9", []), ("10", []), ("11", []), ("12", []), ("14", []), ("15", []), ("16", []), ("17", []), ("18", []), ("20", []), ("21", []), ("22", []), ("24", []), ("CMS", []), ("STS", []), ("WGS", [])]
     
-//    static var course6CourseRoad: [[String:AnyObject]] = [
+    static var course6CourseRoad: [[String:AnyObject]] = []
 //        [
 //            "title" : "4 CS Header Subjects",
 //            "completed" : true,

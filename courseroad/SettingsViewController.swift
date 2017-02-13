@@ -8,28 +8,36 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
-
+class SettingsViewController: UIViewController, UIGestureRecognizerDelegate {
+    // Layout Constants
+    var x_mid: CGFloat = 0
+    let borderBuffer: CGFloat = 20
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        x_mid = self.view.bounds.width / 2
+        
+        // Back Button
+        let buttonSize: CGFloat = 40
+        let back_x = x_mid - buttonSize / 2
+        let backYBuffer: CGFloat = 30
+        
+        let cancelRect = CGRect(x: back_x, y: self.view.bounds.height - borderBuffer - backYBuffer - buttonSize, width: buttonSize, height: buttonSize)
+        let backImage = UIImageView(frame: cancelRect)
+        backImage.image = Globals.Icons.backIcon
+        
+        let backTapRecognizer = UITapGestureRecognizer(target: self, action: #selector(backPressed))
+        backTapRecognizer.delegate = self
+        backImage.addGestureRecognizer(backTapRecognizer)
+        backImage.isUserInteractionEnabled = true
+        self.view.addSubview(backImage)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func backPressed(_ sender: UITapGestureRecognizer) {
+        print("back button pressed")
+        self.dismiss(animated: true, completion: nil)
     }
-    */
-
+    
 }
