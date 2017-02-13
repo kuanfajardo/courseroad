@@ -104,12 +104,12 @@
 			isa = PBXGroup;
 			children = (
 				567A24101E5112E80042DCD4 /* AppDelegate.swift */,
+				567A24391E5114330042DCD4 /* Globals.swift */,
 				567A24361E5113940042DCD4 /* Assets */,
 				567A24351E5113830042DCD4 /* Model */,
 				567A24341E5113780042DCD4 /* Controller */,
 				567A24331E5113700042DCD4 /* View */,
 				567A24121E5112E80042DCD4 /* ViewController.swift */,
-				567A24391E5114330042DCD4 /* Globals.swift */,
 			);
 			path = courseroad;
 			sourceTree = "<group>";
